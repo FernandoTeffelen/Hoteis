@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <img src="https://privehoteiseparques.com.br/wp-content/uploads/2020/12/BANNER-RIVIERA.jpg" alt="Logo">
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Sinta o conforto acolhedor de nossas hospedagens</h1>
+                    <p>Hospede-se nos nossos hotéis com quartos a partir de R$ 100,00.</p>
+                    <a href="#" class="btn btn-outline-light">Saiba Mais</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-cache/301395/078fea0259c5b673bf2d35bcc14f0da5pestanaalvorsouthbeachexterior5/61,0,2424,1447/1206,720,0.24/0/default.jpg" class="img-fluid" alt="Imagem de hospedagem">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="sub-title">Porque se hospedar em nossos hotéis?</h2>
+                <div class="col-md-6 feature d-flex align-items-center justify-content-center">
+                    <i class="bi bi-cup me-3"></i>
+                    <div>
+                        <h4>Delicioso café da manhã</h4>
+                        <p>Incluído em todas as diárias</p>
+                    </div>
+                </div>
+                <div class="col-md-6 feature d-flex align-items-center justify-content-center">
+                    <i class="bi bi-geo-alt me-3"></i>
+                    <div>
+                        <h4>Fácil acesso</h4>
+                        <p>Perto dos principais pontos turísticos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms text-center py-5">
+        <div class="container">
+            <h3>Nossos Quartos</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://www.hplus.com.br/wp-content/uploads/2019/08/quarto-superior-solteiro-hotel-cullinan-hplus-em-brasilia-1.jpg" alt="Suíte Solteiro" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                    <h5>Suíte Solteiro</h5>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://www.dicasdeviagem.com/wp-content/uploads/2021/06/hotel-fasano-boa-vista-quarto.jpg" alt="Suíte Casal" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                    <h5>Suíte Casal</h5>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://hotellidoplaza.com.br/wp-content/uploads/2021/03/suite-master-premium-3.jpg" alt="Suíte Master" class="img-fluid" style="width: 100%; height: 300px; object-fit: cover;">
+                    <h5>Suíte Master</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="booking-form py-5">
+        <div class="container">
+            <h4 class="text-center mb-4">Faça Sua Reserva</h4>
+            <form id="bookingForm">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" name="nome" placeholder="Nome" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" name="email" placeholder="E-mail" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="date" class="form-control" name="dataEntrada" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="date" class="form-control" name="dataSaida" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <textarea class="form-control" name="observacoes" placeholder="Observações" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <input type="number" class="form-control" name="adultos" placeholder="Adultos" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <input type="number" class="form-control" name="criancas" placeholder="Crianças" required>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Hospedagem | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Referência ao arquivo JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
